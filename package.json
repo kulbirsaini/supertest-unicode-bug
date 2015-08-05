@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "private": true,
+  "name": "supertest-unicode-bug",
+  "dependencies": {
+    "express": "^4.13.2",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js",
+    "pretest": "npm install",
+    "test": "node_modules/mocha/bin/mocha $(find test -name '*.js')"
+  }
+}
